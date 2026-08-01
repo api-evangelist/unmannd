@@ -1,20 +1,45 @@
 aid: unmannd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unmannd.png
 name: Unmannd
-description: 'Unmannd is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: defense. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Unmannd (Unmannd Autonomy Pvt Ltd) is an India-based defense technology
+  company backed by Accel and Speciale Invest, engineering autonomous drones
+  under the banner of aerial dominance. Its TITAN 30 is an autonomous
+  defense-logistics drone with a 30 kg max payload, 60 km/h cruise speed,
+  20,000 ft operational ceiling, and 30 km max range; its FURY counter-UAS
+  interceptor was announced as launching in Q1 2026. Unmannd is a
+  hardware/defense company and publishes no public API, developer portal,
+  or SDKs as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/unmannd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
+- speciale-invest
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Defense
+- Drones
+- UAV
+- Counter-UAS
+- Autonomous Systems
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.unmannd.com/
+- type: Contact
+  url: https://www.unmannd.com/contact
+- type: Careers
+  url: https://unmannd.zohorecruit.com/jobs/Careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/unmannd-autonomy/
+- type: LLMsTxt
+  url: llms/unmannd-llms.txt
+- type: DomainSecurity
+  url: security/unmannd-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
